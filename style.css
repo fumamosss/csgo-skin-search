@@ -1,0 +1,148 @@
+:root {
+    --rarity_common_weapon: #afafaf;
+    --rarity_common_weapon_alt: #e6e6e6;
+
+    --rarity_uncommon_weapon: #6496e1;
+    --rarity_uncommon_weapon_alt: #bfd5f5;
+
+    --rarity_rare_weapon: #3060ff;
+    --rarity_rare_weapon_alt: #8da7ff;
+
+    --rarity_mythical_weapon: #8847ff;
+    --rarity_mythical_weapon_alt: #b38aff;
+
+    --rarity_legendary_weapon: #d32ce6;
+    --rarity_legendary_weapon_alt: #fc97ff;
+
+    --rarity_ancient_weapon: #ff3737;
+    --rarity_ancient_weapon_alt: #ff6c6c;
+
+    --rarity_ancient: #ffd900;
+    --rarity_ancient_alt: #fff8b5;
+
+    --rarity_contraband_weapon: #ff720d;
+    --rarity_contraband_weapon_alt: #ffc760;
+}
+
+.rarity_common_weapon {
+    background: linear-gradient(
+        180deg,
+        var(--rarity_common_weapon) 0%,
+        var(--rarity_common_weapon_alt) 100%
+    );
+}
+
+.rarity_uncommon_weapon {
+    background: linear-gradient(
+        180deg,
+        var(--rarity_uncommon_weapon) 0%,
+        var(--rarity_uncommon_weapon_alt) 100%
+    );
+}
+
+.rarity_rare_weapon {
+    background: linear-gradient(
+        180deg,
+        var(--rarity_rare_weapon) 0%,
+        var(--rarity_rare_weapon_alt) 100%
+    );
+}
+
+.rarity_mythical_weapon {
+    background: linear-gradient(
+        180deg,
+        var(--rarity_mythical_weapon) 0%,
+        var(--rarity_mythical_weapon_alt) 100%
+    );
+}
+
+.rarity_legendary_weapon {
+    background: linear-gradient(
+        180deg,
+        var(--rarity_legendary_weapon) 0%,
+        var(--rarity_legendary_weapon_alt) 100%
+    );
+}
+
+.rarity_ancient_weapon {
+    background: linear-gradient(
+        180deg,
+        var(--rarity_ancient_weapon) 0%,
+        var(--rarity_ancient_weapon_alt) 100%
+    );
+}
+
+.rarity_ancient {
+    background: linear-gradient(
+        180deg,
+        var(--rarity_ancient) 0%,
+        var(--rarity_ancient_alt) 100%
+    );
+}
+
+.rarity_contraband_weapon {
+    background: linear-gradient(
+        180deg,
+        var(--rarity_contraband_weapon) 0%,
+        var(--rarity_contraband_weapon_alt) 100%
+    );
+}
+
+body {
+    background-color: #333232;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+label {
+    margin-left: 50px;
+    color: white;
+    font-size: 3rem;
+}
+
+input {
+    margin-left: 25px;
+    width: max-content;
+    font-size: 2rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item {
+    overflow: hidden;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: black 0 0 30px;
+}
+
+.info {
+    padding: 15px;
+}
+
+img {
+    max-width: 20vw;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.skin {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+}
+
+.rarity {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 200;
+}
