@@ -1,91 +1,33 @@
-:root {
-    --rarity_common_weapon: #afafaf;
-    --rarity_common_weapon_alt: #e6e6e6;
-
-    --rarity_uncommon_weapon: #6496e1;
-    --rarity_uncommon_weapon_alt: #bfd5f5;
-
-    --rarity_rare_weapon: #3060ff;
-    --rarity_rare_weapon_alt: #8da7ff;
-
-    --rarity_mythical_weapon: #8847ff;
-    --rarity_mythical_weapon_alt: #b38aff;
-
-    --rarity_legendary_weapon: #d32ce6;
-    --rarity_legendary_weapon_alt: #fc97ff;
-
-    --rarity_ancient_weapon: #ff3737;
-    --rarity_ancient_weapon_alt: #ff6c6c;
-
-    --rarity_ancient: #ffd900;
-    --rarity_ancient_alt: #fff8b5;
-
-    --rarity_contraband_weapon: #ff720d;
-    --rarity_contraband_weapon_alt: #ffc760;
-}
-
 .rarity_common_weapon {
-    background: linear-gradient(
-        180deg,
-        var(--rarity_common_weapon) 0%,
-        var(--rarity_common_weapon_alt) 100%
-    );
+    background: linear-gradient(180deg, #afafaf 0%, #e6e6e6 100%);
 }
 
 .rarity_uncommon_weapon {
-    background: linear-gradient(
-        180deg,
-        var(--rarity_uncommon_weapon) 0%,
-        var(--rarity_uncommon_weapon_alt) 100%
-    );
+    background: linear-gradient(180deg, #6496e1 0%, #bfd5f5 100%);
 }
 
 .rarity_rare_weapon {
-    background: linear-gradient(
-        180deg,
-        var(--rarity_rare_weapon) 0%,
-        var(--rarity_rare_weapon_alt) 100%
-    );
+    background: linear-gradient(180deg, #3060ff 0%, #8da7ff 100%);
 }
 
 .rarity_mythical_weapon {
-    background: linear-gradient(
-        180deg,
-        var(--rarity_mythical_weapon) 0%,
-        var(--rarity_mythical_weapon_alt) 100%
-    );
+    background: linear-gradient(180deg, #8847ff 0%, #b38aff 100%);
 }
 
 .rarity_legendary_weapon {
-    background: linear-gradient(
-        180deg,
-        var(--rarity_legendary_weapon) 0%,
-        var(--rarity_legendary_weapon_alt) 100%
-    );
+    background: linear-gradient(180deg, #d32ce6 0%, #fc97ff 100%);
 }
 
 .rarity_ancient_weapon {
-    background: linear-gradient(
-        180deg,
-        var(--rarity_ancient_weapon) 0%,
-        var(--rarity_ancient_weapon_alt) 100%
-    );
+    background: linear-gradient(180deg, #ff3737 0%, #ff6c6c 100%);
 }
 
 .rarity_ancient {
-    background: linear-gradient(
-        180deg,
-        var(--rarity_ancient) 0%,
-        var(--rarity_ancient_alt) 100%
-    );
+    background: linear-gradient(180deg, #ffd900 0%, #fff8b5 100%);
 }
 
 .rarity_contraband_weapon {
-    background: linear-gradient(
-        180deg,
-        var(--rarity_contraband_weapon) 0%,
-        var(--rarity_contraband_weapon_alt) 100%
-    );
+    background: linear-gradient(180deg, #ff720d 0%, #ffc760 100%);
 }
 
 body {
